@@ -1,0 +1,25 @@
+.upper {
+  display: flex;
+}
+
+
+.keyword {
+  height: 200px;
+  width: 200px;
+  padding: 16px;
+  border: solid 1px #000000;
+}
+
+.note {
+  height: 200px;
+  width: 600px;
+  padding: 16px;
+  border: solid 1px #000000;
+}
+
+.summary {
+  height: 200px;
+  width: 800px;
+  padding: 16px;
+  border: solid 1px #000000;  
+}

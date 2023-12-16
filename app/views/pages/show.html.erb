@@ -1,0 +1,32 @@
+<p style="color: green"><%= notice %></p>
+
+<div class="upper">
+  <div class="keyword">
+    <p>
+      <strong>Keyword:</strong>
+      <%= @page.keyword %>
+    </p>
+  </div>
+  <div class='note'>
+    <p>
+      <strong>Note:</strong>
+      <%= @page.note %>
+    </p>
+  </div>
+</div>
+
+<div class="buttom">
+  <div class="summary">
+    <p>
+      <strong>Summary:</strong>
+      <%= @page.summary %>
+    </p>
+  </div>
+</div>
+
+<div>
+  <%= link_to "Edit this page", edit_page_path(@page) %> |
+  <%= link_to "Back to pages", pages_path %>
+
+  <%= button_to "Destroy this page", @page, method: :delete %>
+</div>
